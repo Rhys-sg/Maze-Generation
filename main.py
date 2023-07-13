@@ -9,7 +9,7 @@ def main():
 
     grid = grid_constructor.grid(window)
 
-    algorythm.findPath(grid[0][0], grid)
+    algorithm.findPath(grid[0][0], grid)
 
     # pause for click in window, then closes
     window.getMouse()
