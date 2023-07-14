@@ -28,7 +28,7 @@ def _findPath(cell):
   # current cell is added to set
   visited.add((cell.get("x"), cell.get("y")))
 
-  # randomize what way to go next--shuffles array so to store what the algorithm need to try later
+  # randomize what way to go next--shuffles array to store what the algorithm needs to try later
   successors = ["top", "bottom", "left", "right"]
   numpy.random.shuffle(successors)
 
